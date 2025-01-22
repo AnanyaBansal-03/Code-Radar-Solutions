@@ -9,7 +9,7 @@ int main() {
     else if (a=="A" || "E" || "I" || "O" || "U" || "a" || "e" ||"i"||"o"||"u"){
         printf("Vowel");
     }
-    else if (a!="AEIOUaeiou"){
+    else if (a!="A"||"E"||"I"||"O"||"U"||"a"||"e"||"i"||"o"||"u"){
         printf("Consonant");
     }
     else {
