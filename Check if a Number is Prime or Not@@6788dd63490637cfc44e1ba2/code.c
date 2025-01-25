@@ -12,13 +12,12 @@ int main() {
             if (a%i==0){
                 cnt++;
             }
-            if cnt>2{
-                printf("Not Prime");
-            }
-            else {
-                printf("Prime");
-            }
         }
-    }
+        if (cnt>2){
+            printf("Not Prime");
+        }
+        else {
+            printf("Prime");
+        }
     return 0;
 }
