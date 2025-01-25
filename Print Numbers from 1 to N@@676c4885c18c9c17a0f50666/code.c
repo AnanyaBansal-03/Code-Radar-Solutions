@@ -1,8 +1,8 @@
 int main() {
     int i;
-    int a;
-    scanf("%d",&a);
-    for (i=1;i<=a;i++){
+    int N;
+    scanf("%d",&N);
+    for (i=1;i<=N;i++){
         printf("%d ",i);
     }
     return 0;
