@@ -2,9 +2,9 @@
 int main() {
     int a,count=0;
     scanf("%d",&a);
-    while ((n&1)==0 && n!=0){
+    while ((a&1)==0 && a!=0){
         count++;
-        n=n>>1;
+        a=a>>1;
     }
     printf("%d",count);
     return 0;
