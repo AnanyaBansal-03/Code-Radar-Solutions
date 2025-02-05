@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a,flipped;
-    scanf("%d",&n);
+    scanf("%d",&a);
     flipped=~a;
     printf("%d",flipped);
     return 0;
