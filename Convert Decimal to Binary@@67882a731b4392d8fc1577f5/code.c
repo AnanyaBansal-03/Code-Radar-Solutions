@@ -7,7 +7,7 @@ int main() {
         return 0;
     }
     for (int i=31 ; i>=0 ; i--){
-        int bit=(n>>i)&1;
+        int bit=(a>>i)&1;
         if (bit==1 || i<31){
             printf("%d",bit);
         }
