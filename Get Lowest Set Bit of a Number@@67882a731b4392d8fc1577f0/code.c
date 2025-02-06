@@ -8,7 +8,7 @@ int main() {
     }
     int position=0;
     while ((a&1)==0){
-        n>>=1;
+        a>>=1;
         position++;
     }
     printf("%d",position);
