@@ -8,7 +8,7 @@ int main() {
             break;
         }
         count++;
-        n<<=1;
+        a<<=1;
     }
     printf("%d",count);
     return 0;
