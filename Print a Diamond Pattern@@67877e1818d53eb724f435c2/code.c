@@ -11,11 +11,11 @@ int main() {
         }
         printf("\n");
     }
-    for (i=1;i<=a;i++){
+    for (i = a ; i >= 1; i--){                   // start from a-1 to avoid middle row repetition
         for (space=1;space<=a-i;space++){
             printf(" ");
         }
-        for (j=a;j>=2*i-1;j--){
+        for (j=1;j<=2*i-1;j++){
             printf("*");
         }
         printf("\n");
