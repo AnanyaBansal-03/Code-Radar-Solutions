@@ -11,7 +11,7 @@ int main() {
         }
         printf("\n");
     }
-    for (i = a ; i >= 1; i--){                   // start from a-1 to avoid middle row repetition
+    for (i = a - 1; i >= 1; i--){                   // start from a-1 to avoid middle row repetition
         for (space=1;space<=a-i;space++){
             printf(" ");
         }
