@@ -14,7 +14,7 @@
 //     return 0;
 // }
 #include <stdio.h>
-#include <stype.h>
+#include <ctype.h>
 int main() {
     char a;
     scanf("%c",&a);
