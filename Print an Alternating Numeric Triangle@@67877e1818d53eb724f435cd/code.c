@@ -13,14 +13,17 @@
 
 
 #include <stdio.h>
-int main(){
+
+int main() {
     int a;
     scanf("%d", &a);
+    
     for (int i = 0; i < a; i++) {  // Row loop
-        for (int j = 0; j < a; j++) {  // Column loop
-            printf("%d ", (i + j + 1) % 2);  // Adjusted formula
+        for (int j = 0; j <= i; j++) {  // Column loop for triangle shape
+            printf("%d ", (i + j + 1) % 2);  // Adjusted formula to start from 1
         }
         printf("\n");
     }
+
     return 0;
 }
