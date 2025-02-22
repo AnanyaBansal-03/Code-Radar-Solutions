@@ -19,7 +19,6 @@ int main() {
     int rows, i, j;
     
     // Taking input from user
-    printf("Enter the number of rows: ");
     scanf("%d", &rows);
     
     // Loop for rows
