@@ -12,24 +12,15 @@
 // }
 
 
-
 #include <stdio.h>
-
-int main() {
-    int rows, i, j;
-    
-    // Taking input from user
-    scanf("%d", &rows);
-    
-    // Loop for rows
-    for (i = 0; i < rows; i++) {
-        // Loop for columns
-        for (j = 0; j <= i; j++) {
-            // Print alternating 0 and 1
-            printf("%d ", (i + j) % 2);
+int main(){
+    int a;
+    scanf("%d", &a);
+    for (int i = 0; i < a; i++) {  // Row loop
+        for (int j = 0; j < a; j++) {  // Column loop
+            printf("%d ", (i + j + 1) % 2);  // Adjusted formula
         }
         printf("\n");
     }
-    
     return 0;
 }
