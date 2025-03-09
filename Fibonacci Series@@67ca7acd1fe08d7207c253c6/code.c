@@ -1,9 +1,16 @@
 int fibonacciSeries(int n){
-    if (n==0){
-        return 0;
+    int a=0,b=1,c;
+    if (n>=1){
+        printf("%d ",a);
     }
-    if (n==1){
-        return 1;
+    if (n>=2){
+        printf("%d ",b);
     }
-    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+    for (int i=3;i<=n;i++){
+        c=a+b;
+        printf("%d ",c);
+        a=b;
+        b=c;
+    }
+    printf("\n");
 }
