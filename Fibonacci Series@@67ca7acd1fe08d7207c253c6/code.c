@@ -3,6 +3,6 @@ int fibonacciSeries(int n){
         return 0;
     }
     else {
-        return fibonacciSeries(n-1)+fibonacciSeries(n-2);\
+        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
     }
 }
