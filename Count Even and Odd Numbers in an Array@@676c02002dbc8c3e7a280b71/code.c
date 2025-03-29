@@ -6,12 +6,12 @@ int main(){
     int arr[size];
     for (i=0;i<size;i++){
         scanf("%d",&arr[i]);
+        if (arr[i]%2==0){
+            even++;
     }
-    if (arr[i]%2==0){
-        even++;
-    }
-    else {
-        odd++;
+        else {
+            odd++;
+        }
     }
     printf("%d %d",even,odd);
 }
