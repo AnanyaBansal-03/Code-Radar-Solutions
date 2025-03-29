@@ -1,6 +1,7 @@
 #include <stdio.h>
 int maxElement(int arr[],int size){
     int max=arr[0];
+    int i;
     for (int i=0;i<size;i++){
         if (arr[i]>max){
             max=arr[i];
@@ -10,6 +11,7 @@ int maxElement(int arr[],int size){
 }
 int minElement(int arr[],int size){
     int min=arr[0];
+    int i;
     if (int i=0;i<size;i++){
         if (arr[i]<min){
             min=arr[i];
