@@ -7,7 +7,7 @@ int sumOfArray(int num){
     }
     return sum;
     if (sum<0){
-        return (-sum);
+        return (-(sum));
     }
 }
 int main(){
