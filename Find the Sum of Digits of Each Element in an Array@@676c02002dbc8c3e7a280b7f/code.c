@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int sumOfArray(int num){
     int sum=0;
     while (num!=0){
