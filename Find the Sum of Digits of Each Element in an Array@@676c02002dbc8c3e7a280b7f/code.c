@@ -5,10 +5,7 @@ int sumOfArray(int num){
         sum+=num%10;
         num/=10;
     }
-    return sum;
-    if (sum<0){
-        return (-(sum));
-    }
+    return abs(sum);
 }
 int main(){
     int size,i;
