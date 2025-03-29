@@ -26,7 +26,6 @@ int main(){
     }
     int max=maxElement(arr,size);
     int min=minElement(arr,size);
-    printf("%d",max);
-    printf("%d",min);
+    printf("%d %d",max,min);
     return 0;
 }
