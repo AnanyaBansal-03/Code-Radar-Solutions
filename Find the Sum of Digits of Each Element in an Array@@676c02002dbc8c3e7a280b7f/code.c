@@ -6,6 +6,9 @@ int sumOfArray(int num){
         num/=10;
     }
     return sum;
+    if (sum<0){
+        return (-sum);
+    }
 }
 int main(){
     int size,i;
