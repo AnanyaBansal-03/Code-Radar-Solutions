@@ -1,4 +1,5 @@
 int insertionSort(int arr[],int n){
+    int i,j;
     for (int i=1;i<n;i++){
         int key=arr[i];
         int j=i-1;
@@ -9,7 +10,7 @@ int insertionSort(int arr[],int n){
     }
     arr[j+1]=key;
 }
-int printArary(int arr[],int n){
+int printArray(int arr[],int n){
     for (int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
