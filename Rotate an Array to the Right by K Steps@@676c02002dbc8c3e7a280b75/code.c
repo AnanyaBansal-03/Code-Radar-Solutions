@@ -1,5 +1,5 @@
 #include <stdio.h>
-int rightRotate(int arr[],int size,int rotations){
+void rightRotate(int arr[],int size,int rotations){
     rotations=rotations%size;
     int temp[rotations];
     for (int i=0;i<rotations;i++){
