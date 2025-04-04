@@ -1,4 +1,4 @@
-int factorialRange(int start,int end){
+int factorialRange(int start,int end,int n){
     int factorial=1;
     for (int i=1;i<=n;i++){
         fact*=i;
