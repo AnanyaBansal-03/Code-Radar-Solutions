@@ -20,9 +20,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&rotations);
-    int result=rightRotate(arr,size,rotations);
+    rightRotate(arr,size,rotations);
     for (int i=0;i<size;i++){
-        printf("%d ",result);
+        printf("%d ",arr[i]);
     }
     return 0;
 }
