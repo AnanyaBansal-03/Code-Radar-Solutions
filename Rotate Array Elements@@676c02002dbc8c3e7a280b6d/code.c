@@ -2,13 +2,13 @@
 void rotateElements(int arr[],int size,int rotations){
     rotations=rotations%size;
     int temp[rotations];
-    for (int i=0;i<size;i++){
+    for (int i=0;i<rotations;i++){
         temp[i]=arr[size-rotations+i];
     }
     for (int i=size-1;i>=rotations;i--){
         arr[i]=arr[i-rotations];
     }
-    for (int i=0;i<size;i++){
+    for (int i=0;i<rotations;i++){
         arr[i]=temp[i];
     }
 }
