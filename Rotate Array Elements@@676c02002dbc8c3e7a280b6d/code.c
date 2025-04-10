@@ -22,6 +22,8 @@ int main(){
     int rotations;
     scanf("%d",&rotations);
     int result=rotateElements(arr,size,rotations);
-    printf("%d",result);
+    for (int i=0;i<size;i++){
+        printf("%d",result);
+    }
     return 0;
 }
