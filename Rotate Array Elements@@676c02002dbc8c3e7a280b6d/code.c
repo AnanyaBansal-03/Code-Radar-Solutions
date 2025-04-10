@@ -1,5 +1,5 @@
 #include <stdio.h>
-int rotateElements(int arr[],int size,int rotations){
+void rotateElements(int arr[],int size,int rotations){
     rotations=rotations%size;
     int temp[rotations];
     for (int i=0;i<size;i++){
